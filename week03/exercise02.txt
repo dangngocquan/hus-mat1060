@@ -15,5 +15,5 @@ solve(A)
 solve(B)
 
 # d)
-A*B
-solve(A) * B * A
+A %*% B
+solve(A) %*% B %*% A
