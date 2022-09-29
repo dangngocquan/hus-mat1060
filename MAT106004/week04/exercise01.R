@@ -23,3 +23,4 @@ scores$letterGrades <- cut(scores$averageGrades,
                                       7.9999, 8.4999, 8.9999, 10.0001),
                            labels = c("F", "D", "D+", "C", "C+", "B", "B+", "A",
                                       "A+"))
+scores
