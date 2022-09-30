@@ -1,4 +1,4 @@
-# EXercise 04
+# Exercise 04
 
 # data
 A = matrix(data = c(2, 1, 5, 4, 5, 3, 9, 2, 3, 9, 4, 8, 4, 3, 8, 1), nrow = 4)
