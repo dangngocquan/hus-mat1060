@@ -10,12 +10,10 @@ tempMatrix
 mean(tempMatrix[,1])
 
 # 2)
-for (row in 1:length(tempMatrix[,1])) {
-  print(mean(tempMatrix[row,]))
-}
+averageEachYear <- apply(tempMatrix, MARGIN = 1, FUN = mean)
+averageEachYear
 
 # 3)
-for (column in 1:12) {
-  print(mean(tempMatrix[,column]))
-}
+averageEachMonth <- apply(tempMatrix, MARGIN = 2, FUN = mean)
+averageEachMonth
 
