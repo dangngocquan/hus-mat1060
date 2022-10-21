@@ -26,8 +26,7 @@ subset(chickWeight, chickWeight$Chick==42)
 
 # 4)
 for (diet in dietSet) {
-  print(mean(
-    chickWeight$weight[chickWeight$Time == 21 & chickWeight$Diet == diet]))
-  print(sd(
-    chickWeight$weight[chickWeight$Time == 21 &  chickWeight$Diet == diet]))
+  print(paste0("Diet: ",diet,
+               " ;Mean: ", mean(chickWeight$weight[chickWeight$Time == 21 & chickWeight$Diet == diet]),
+               " ;Sd: ",sd(chickWeight$weight[chickWeight$Time == 21 &  chickWeight$Diet == diet])))
 }
