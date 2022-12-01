@@ -16,3 +16,4 @@ library(dplyr)
 library(corrr)
 attach(Boston)
 Boston %>% correlate(Boston) %>% focus(medv)
+
