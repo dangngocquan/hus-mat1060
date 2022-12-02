@@ -8,12 +8,18 @@ total_office_based_physicians <- c(271.3, 359.9, 427.3, 468.8, 473.2,
 
 barplot(height = family_practice,
         main = "Số bác sĩ gia đình từ năm 1990 đến 2002",
+        ylab = "Số lượng (nghìn)",
+        xlab = "Năm",
         names.arg = c(1980, 1990, 1995, 1998, 1999, 2000, 2001))
 
 # b)
 barplot(height = family_practice / total_office_based_physicians * 100,
         main = "Tỷ lệ số bác sĩ gia đình trên số bác sĩ văn phòng (%)",
-        names.arg = c(1980, 1990, 1995, 1998, 1999, 2000, 2001))
+        xlab = "Năm",
+        ylab = "Phần trăm",
+        ylim = c(0,20),
+        names.arg = c(1980, 1990, 1995, 1998, 1999, 2000, 2001),
+        col = c("red"))
 
 # c)
 # Có sự khác biệt giữa 2 biểu đồ trên:
