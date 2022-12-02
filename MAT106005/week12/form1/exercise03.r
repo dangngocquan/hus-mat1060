@@ -19,3 +19,4 @@ barplot(height = family_practice / total_office_based_physicians * 100,
 # Có sự khác biệt giữa 2 biểu đồ trên:
 # Số bác sĩ gia đình  tăng dần số lượng theo thời gian, còn phần trăm thì 
 # giảm dần (biểu đồ 2)
+
