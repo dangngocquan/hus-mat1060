@@ -10,10 +10,7 @@ mean_end <- sum(frequency * class_interval_end) / sum(frequency)
 print(paste0(mean_start, " - ", mean_end))
 
 # median
-index <- which(frequency == median(frequency))
-print(paste0(class_interval_start[index],
-             " - ",
-             class_interval_end[index]))
+
 
 # mode
 index1 <- which.max(frequency)
